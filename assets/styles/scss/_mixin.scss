@@ -1,0 +1,13 @@
+@mixin Hover {
+    &:hover {
+        border: 1px solid $color-primary;
+        background-color: $color-white;
+        color: $color-primary;
+        transition: all 0.4s;
+    }
+}
+
+@mixin font-style {
+    font-style: $font-style;
+    font-weight: $font-weight;
+}
